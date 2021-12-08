@@ -1,0 +1,6 @@
+(f) Peão-> d5
+(f) Peão-> e4
+(f) Peão-> e4
+(f) Peão-> e4
+(f) Rainha-> d6
+(f) Peão-> e8

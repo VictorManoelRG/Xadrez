@@ -1,0 +1,43 @@
+
+.AnchorPane{
+    -fx-background-image: url("Favela.png");
+}
+
+#CasaClara{
+    -fx-background-color: lemonchiffon;
+    -fx-background-radius: 0;
+}
+
+#CasaEscura{
+    -fx-background-color: olivedrab;
+    -fx-background-radius: 0;
+}
+
+#desistir{
+    -fx-background-color: lightgrey;
+}
+
+#desistir:hover{
+    -fx-background-color: darkgray;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-scale-z: 1.05;
+}
+
+#pecas{
+    -fx-background-color: transparent;
+}
+
+#pecas:focused{
+    -fx-border-color: darkviolet;
+    -fx-border-width: 3
+}
+
+.Text{
+    -fx-text-alignment: center;
+}
+
+#teste{
+    -fx-background-color: black;
+}
+

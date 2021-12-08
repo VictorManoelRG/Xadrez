@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xadrez.FXMLTabuleiroController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="274.0" prefWidth="461.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text layoutX="30.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você tem certeza que quer desistir?" wrappingWidth="420.02734375">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="242.0" fitWidth="242.0" layoutX="307.0" layoutY="69.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-20.6">
+               <image>
+                  <Image url="@../../../../tesssspreta.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="242.0" fitWidth="242.0" layoutX="-70.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" rotate="20.6">
+               <image>
+                  <Image url="@../../../../tessss.png" />
+               </image>
+            </ImageView>
+            <Button id="BotaoSim" layoutX="140.0" layoutY="190.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="86.0" stylesheets="@../css/Avisos.CSS.css" text="Sim">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="BotaoNao" layoutX="250.0" layoutY="190.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="86.0" stylesheets="@../css/Avisos.CSS.css" text="Não">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

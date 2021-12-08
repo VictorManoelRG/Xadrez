@@ -1,0 +1,22 @@
+
+#BotaoSim{
+    -fx-background-color: limegreen;
+}
+
+#BotaoSim:hover{
+    -fx-background-color: darkgreen;
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+    -fx-scale-z: 1.03;
+}
+
+#BotaoNao{
+    -fx-background-color: firebrick;
+}
+
+#BotaoNao:hover{
+    -fx-background-color: darkred;
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+    -fx-scale-z: 1.03;
+}

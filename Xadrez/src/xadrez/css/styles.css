@@ -1,0 +1,14 @@
+.AnchorPane{
+    -fx-background-image: url("BG3.png");
+}
+
+.button{
+    -fx-background-color: white;
+}
+
+.button:hover{
+    -fx-background-color: darkgray;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
